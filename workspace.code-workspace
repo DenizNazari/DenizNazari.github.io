@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..svg"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "my blog page"
+	}
+}

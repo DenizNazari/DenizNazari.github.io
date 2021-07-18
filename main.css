@@ -1,0 +1,151 @@
+*{margin:0;
+padding:0}
+
+.conteiner{
+    margin: auto;
+    width: 80%;
+    min-width: 900px;
+    max-width: 1170px;
+    
+    padding:0
+
+    
+    }
+body{
+  
+background: linear-gradient(90deg, rgba(224, 170, 255)11%, rgba(0, 168, 150) 110%);
+
+}
+a{text-decoration: none;}
+.about{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 840px;
+    background-color:rgb(255, 255, 255);
+    border-radius:10px 10px 10px 10px ;
+    margin: bottom 10px;
+    position: relative;
+
+    
+
+}
+.head-name{
+    color:white;
+    font-family: 'Amatic SC', cursive;
+    position:absolute;
+    left:0;
+    top:2px;
+    padding: 10px;
+    font-size: max;
+}
+.menu{
+    position: relative;
+    height: 200px;
+    
+
+    /* background-color:red; */
+}
+.munu-list{
+    /* background-color:yellow; */
+    position:absolute;
+    top: 5px;
+    right: 1px;
+    font-family: 'Nunito Sans', sans-serif;
+  
+}
+
+.munu-list lu li{
+    box-sizing: border-box;
+    height: 58px; 
+    width: 100px;
+
+    display: inline-block;
+    padding: 20px 20px;
+    
+    color:white;
+
+}
+/* .munu-list lu li a{
+    text-decoration: none;
+    color:white;
+} */
+.munu-list lu li a:link {
+    text-decoration: none;
+    color:white;
+  }
+  
+  .munu-list lu li  a:visited {
+    color:white;
+    text-decoration: none;
+  }
+  
+  .munu-list lu li  a:hover {
+    
+    text-decoration: none;
+    font-weight: bold;
+    font-weight: 600;
+    font-size:16px;
+    text-shadow: 2px 2px 5px rgb(0, 22, 32);
+  }
+  
+  .munu-list lu li a:active {
+    color: rgba(255, 255, 255, 0.336);
+    text-decoration: none;
+  }
+.about-logo{
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 50%;	
+	float: left;
+	padding: 20px;
+
+}
+.about-logo img{
+    border-top-left-radius: 10px ;
+}
+.about-text{
+    box-sizing: border-box;
+    overflow:hidden;
+    width: 50%;	
+	float: right;
+	padding: 20px;
+    
+  
+}
+.about-text p{
+    margin: auto;
+    
+}
+.myself{
+    padding-left:20%;
+    margin: auto;
+    font-family: 'Nunito Sans', sans-serif;padding-top: 5px;
+    }
+    .myself h1{font-weight:bold; font-size:40px;}
+
+.myself p{
+    padding-top: 5px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+.rer{ font-size:18px;}
+#hhjll{
+    font-size: 60px;
+    font-weight: 900 bold;
+}
+#yazi{
+    padding-top: 10px;
+    color:rgba(24, 24, 24, 0.699);
+    
+}
+.derifek{ 
+    padding: 25%;
+    padding-top: 30px;list-style-type: none;
+}
+.derifek uL li{
+    padding:9px;
+    padding-left: 0%;
+    list-style-type: none;
+
+}
